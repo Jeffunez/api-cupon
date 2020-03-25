@@ -1,14 +1,22 @@
 {
   "cuponList": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    { "id": 1, 
+      "name": "Cupon 1" ,
+      "status": false,
+      "discount": 10,
+      "idProduct": 1
+    },
+    { "id": 2, 
+      "name": "Cupon 2" ,
+      "status": false,
+      "discount": 10,
+      "idProduct": 2
+    },
+    { "id": 3, 
+      "name": "Cupon 3" ,
+      "status": false,
+      "discount": 10,
+      "idProduct": 3
+    },
+  ]
 }
