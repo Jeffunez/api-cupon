@@ -1,7 +1,7 @@
 {
   "cuponList": [
     { "id": 1, 
-      "name": "Cupon 1" ,
+      "name": "Cupon 1",
       "status": false,
       "discount": 10,
       "idProduct": 1
@@ -17,6 +17,6 @@
       "status": false,
       "discount": 10,
       "idProduct": 3
-    },
+    }
   ]
 }
