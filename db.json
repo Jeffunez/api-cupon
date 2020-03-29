@@ -1,22 +1,148 @@
 {
-  "cuponList": [
-    { "id": 1, 
-      "name": "Cupon 1",
-      "status": false,
-      "discount": 10,
-      "idProduct": 1
-    },
-    { "id": 2, 
-      "name": "Cupon 2" ,
-      "status": false,
-      "discount": 10,
-      "idProduct": 2
-    },
-    { "id": 3, 
-      "name": "Cupon 3" ,
-      "status": false,
-      "discount": 10,
-      "idProduct": 3
-    }
-  ]
-}
+    "GeneralCategories":[
+        {
+            "id": 1,
+            "name": "Categoria General 1"
+        },
+        {
+            "id": 2,
+            "name": "Categoria General 2"
+        },
+        {
+            "id": 3,
+            "name": "Categoria General 3"
+        }
+    ],
+    "SubCategories":[
+        {
+            "id": 1,
+            "name": "Sub categoria 1",
+            "description": "Descripcion subcategoria 1",
+            "idSubCat": 1
+        },
+        {
+            "id": 2,
+            "name": "Sub categoria 2",
+            "description": "Descripcion subcategoria 2",
+            "idSubCat": 2
+        },
+        {
+            "id": 3,
+            "name": "Sub categoria 3",
+            "description": "Descripcion subcategoria 3",
+            "idSubCat": 3
+        }
+    ],
+    "Stores":[
+        {
+            "id": 1,
+            "name": "Tienda 1",
+            "FiscalName": "fdasfdsa-fdasfd-fdsassd",
+            "Address": "Colonia x Calle x No. 1",
+            "telephone": "642 547 8952",
+            "email": "correo@xxx.com",
+            "rfc": "fdsaf-fdsa-fdsafd-fdsa",
+            "subCategoryId": 1,
+            "idOwner": 1
+        },
+        {
+            "id": 2,
+            "name": "Tienda 2",
+            "FiscalName": "fdasfdsa-fdasfd-fdsassd",
+            "Address": "Colonia x Calle x No. 2",
+            "telephone": "642 547 8952",
+            "email": "correo@xxx.com",
+            "rfc": "fdsaf-fdsa-fdsafd-fdsa",
+            "subCategoryId": 2,
+            "idOwner": 2
+        },
+        {
+            "id": 3,
+            "name": "Tienda 3",
+            "FiscalName": "fdasfdsa-fdasfd-fdsassd",
+            "Address": "Colonia x Calle x No. 3",
+            "telephone": "642 547 8952",
+            "email": "correo@xxx.com",
+            "rfc": "fdsaf-fdsa-fdsafd-fdsa",
+            "subCategoryId": 3,
+            "idOwner": 3
+        }
+    ],
+    "StoreCategories":[
+        {
+            "id": 1,
+            "idStore": 1,
+            "idCategoryStore":1
+        },
+        {
+            "id": 2,
+            "idStore": 2,
+            "idCategoryStore":2
+        },
+        {
+            "id": 3,
+            "idStore": 3,
+            "idCategoryStore":3
+        }
+    ],
+    "Products":[
+        {
+            "id": 1,
+            "name": "Producto 1"
+        },
+        {
+            "id": 2,
+            "name": "Producto 2"
+        },
+        {
+            "id": 3,
+            "name": "Producto 3"
+        }
+    ],
+    "ProductsDetails":[
+        {
+            "id": 1,
+            "description": "Descripcion producto 1",
+            "price": 100,
+            "idProduct": 1,
+            "idStoreCategory": 1
+        },
+        {
+            "id": 2,
+            "description": "Descripcion producto 2",
+            "price": 200,
+            "idProduct": 2,
+            "idStoreCategory": 2
+        },
+        {
+            "id": 3,
+            "description": "Descripcion producto 3",
+            "price": 300,
+            "idProduct": 3,
+            "idStoreCategory": 3
+        }
+    ],
+    "Coupons": [
+      { "id": 1, 
+        "name": "Cupon 1",
+        "status": false,
+        "discount": 10,
+        "expirationDate": 1,
+        "idProductDtl": 1
+      },
+      { "id": 2, 
+        "name": "Cupon 2",
+        "status": false,
+        "discount": 20,
+        "expirationDate": 2,
+        "idProductDtl": 2
+      },
+      { "id": 3, 
+        "name": "Cupon 3",
+        "status": false,
+        "discount": 30,
+        "expirationDate": 3,
+        "idProductDtl": 3
+      }
+    ]
+  }
