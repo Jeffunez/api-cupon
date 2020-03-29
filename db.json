@@ -1,18 +1,4 @@
 {
-    "GeneralCategories":[
-        {
-            "id": 1,
-            "name": "Categoria General 1"
-        },
-        {
-            "id": 2,
-            "name": "Categoria General 2"
-        },
-        {
-            "id": 3,
-            "name": "Categoria General 3"
-        }
-    ],
     "SubCategories":[
         {
             "id": 1,
@@ -67,38 +53,7 @@
             "subCategoryId": 3,
             "idOwner": 3
         }
-    ],
-    "StoreCategories":[
-        {
-            "id": 1,
-            "idStore": 1,
-            "idCategoryStore":1
-        },
-        {
-            "id": 2,
-            "idStore": 2,
-            "idCategoryStore":2
-        },
-        {
-            "id": 3,
-            "idStore": 3,
-            "idCategoryStore":3
-        }
-    ],
-    "Products":[
-        {
-            "id": 1,
-            "name": "Producto 1"
-        },
-        {
-            "id": 2,
-            "name": "Producto 2"
-        },
-        {
-            "id": 3,
-            "name": "Producto 3"
-        }
-    ],
+    ],  
     "ProductsDetails":[
         {
             "id": 1,
